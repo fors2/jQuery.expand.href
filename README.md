@@ -1,3 +1,5 @@
 jQuery.expand.href
 ==================
-test
+"Small Module" to use by copy & paste.
+
+Require module is jQuery.

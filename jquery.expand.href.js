@@ -19,7 +19,16 @@
  * 
  */
 
-$(function(){
+/**
+ * @example
+ * 
+ * $(function(){
+ *     exhref("#hoge");
+ * });
+ *
+ */
+
+function exhref(selector){
     $(selector).click(function(){
         var href = $("a", this).attr("href");
         if(typeof href === "undefined") return;
@@ -32,4 +41,4 @@ $(function(){
 
         window.location.href = href;
     });
-});
+}
